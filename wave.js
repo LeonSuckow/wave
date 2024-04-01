@@ -43,7 +43,7 @@ class Board {
     if (propagationCount < boardWidth) {
       setTimeout(() => {
         this.startPropagation(row, col, propagationCount + 1)
-      }, 150);
+      }, 50);
     }
 
   }
