@@ -1,5 +1,5 @@
-const boardWidth = 20;
-const boardHeight = 20;
+const boardWidth = 10;
+const boardHeight = 10;
 
 class Board {
   constructor(bgColor = 'bg-gray-800') {
